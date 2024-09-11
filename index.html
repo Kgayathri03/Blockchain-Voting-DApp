@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting DApp</title>
+</head>
+<body>
+    <h1>Voting DApp</h1>
+    <div>
+        <h2>Vote for a Candidate</h2>
+        <input type="text" id="candidate" placeholder="Enter candidate name">
+        <button onclick="vote()">Vote</button>
+    </div>
+    <div>
+        <h2>Get Votes</h2>
+        <input type="text" id="getCandidate" placeholder="Enter candidate name">
+        <button onclick="getVotes()">Get Votes</button>
+        <p id="votes"></p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
